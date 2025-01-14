@@ -3,14 +3,11 @@
     color: white;
 }
 
-img{
-    height: 200px;
-}
-
 input, button{
     border-radius: 5px;
     color: black;
 }
+
 body{
     background-color: black;
     height: 100vh;
@@ -18,4 +15,24 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+button{
+    border-radius: 50px;
+    width: 140px;
+    height: 30px;
+    background-color: #9C9C9C;
+    border-style: hidden;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px 1.5px #424242;
+    font-size: 13px;
+}
+
+button:hover{
+    background-color: #6299A7;
+    font-weight: bold;
+}
+
+img{
+    height: 200px;
 }
